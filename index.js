@@ -8,7 +8,7 @@ dotenv.config(); //ds
 const CONFIG = {
   wpApiUrl:
     process.env.WP_API_URL ||
-    "https://profitbooking.in/wp-json/scraper/v1/tradingview",
+    "https://rajakrishna.in/wp-json/scraper/v1/tradingview",
   wpUser: process.env.WP_USER,
   wpPass: process.env.WP_PASS,
 };
@@ -731,3 +731,4 @@ async function scrapeTradingViewNews() {
 }
 
 scrapeTradingViewNews().catch(console.error);
+
